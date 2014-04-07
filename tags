@@ -1,0 +1,62 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Alphabet	ciphers.go	/^const Alphabet = " ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"$/;"	c
+CeasarCipherApplyDecoder	ciphers.go	/^func CeasarCipherApplyDecoder(text string, shift int) (string, error) {$/;"	f
+CeasarCipherApplyShift	ciphers.go	/^func CeasarCipherApplyShift(text string, shift int) (string, error) {$/;"	f
+CeasarCipherApplyShifts	ciphers.go	/^func CeasarCipherApplyShifts(text string, shifts [][]int) (string, error) {$/;"	f
+CeasarCipherBuildDecoder	ciphers.go	/^func CeasarCipherBuildDecoder(shift int) (map[string]string, error) {$/;"	f
+CeasarCipherBuildEncoder	ciphers.go	/^func CeasarCipherBuildEncoder(shift int) (map[string]string, error) {$/;"	f
+CeasarCipherFindBestShifts	ciphers.go	/^func CeasarCipherFindBestShifts(text string, wordList IWords) ([][]int, error) {$/;"	f
+CeasarCipherFindShift	ciphers.go	/^func CeasarCipherFindShift(text string, wordList IWords) (int, error) {$/;"	f
+ComparableFloat64	sort.go	/^type ComparableFloat64 interface {$/;"	t
+ComparatorFloat64	sort.go	/^type ComparatorFloat64 struct {$/;"	t
+Compare	sort.go	/^func (c ComparatorFloat64) Compare(a ComparatorFloat64) int {$/;"	f
+IWords	words.go	/^type IWords interface {$/;"	t
+IsWord	words.go	/^func (l WordList) IsWord(word string) bool {$/;"	f
+MergeSortFloat64	sort.go	/^func MergeSortFloat64(list []ComparatorFloat64) []ComparatorFloat64 {$/;"	f
+NewWordList	words.go	/^func NewWordList(l []string) *WordList {$/;"	f
+ReadLinesString	words.go	/^func ReadLinesString(file *os.File) ([]string, error) {$/;"	f
+ReadWordsFromFile	words.go	/^func ReadWordsFromFile(filePath string) ([]string, error) {$/;"	f
+SearchBiSection	search.go	/^func SearchBiSection(list []float64, answer float64) (int, error) {$/;"	f
+SearchBrute	search.go	/^func SearchBrute(list []float64, answer float64) (int, error) {$/;"	f
+SelectionSortFloat64	sort.go	/^func SelectionSortFloat64(list []ComparatorFloat64) []ComparatorFloat64 {$/;"	f
+TestCeasarCipherApplyShift_WithEndingStringAndShiftFive	ciphers_test.go	/^func TestCeasarCipherApplyShift_WithEndingStringAndShiftFive(t *testing.T) {$/;"	f
+TestCeasarCipherApplyShift_WithLowerStringAndShiftOne	ciphers_test.go	/^func TestCeasarCipherApplyShift_WithLowerStringAndShiftOne(t *testing.T) {$/;"	f
+TestCeasarCipherApplyShift_WithMixedStringAndShiftOne	ciphers_test.go	/^func TestCeasarCipherApplyShift_WithMixedStringAndShiftOne(t *testing.T) {$/;"	f
+TestCeasarCipherApplyShift_WithSpacesStringAndShiftOne	ciphers_test.go	/^func TestCeasarCipherApplyShift_WithSpacesStringAndShiftOne(t *testing.T) {$/;"	f
+TestCeasarCipherApplyShifts_withEmptyShifts	ciphers_test.go	/^func TestCeasarCipherApplyShifts_withEmptyShifts(t *testing.T) {$/;"	f
+TestCeasarCipherApplyShifts_withMultipleShifts	ciphers_test.go	/^func TestCeasarCipherApplyShifts_withMultipleShifts(t *testing.T) {$/;"	f
+TestCeasarCipherApplyShifts_withSingleShift	ciphers_test.go	/^func TestCeasarCipherApplyShifts_withSingleShift(t *testing.T) {$/;"	f
+TestCeasarCipherApplyShifts_withTwoShifts	ciphers_test.go	/^func TestCeasarCipherApplyShifts_withTwoShifts(t *testing.T) {$/;"	f
+TestCeasarCipherApplyShifts_withTwoShiftsVaryLengths	ciphers_test.go	/^func TestCeasarCipherApplyShifts_withTwoShiftsVaryLengths(t *testing.T) {$/;"	f
+TestCeasarCipherBuildDecoder_DeShiftOne	ciphers_test.go	/^func TestCeasarCipherBuildDecoder_DeShiftOne(t *testing.T) {$/;"	f
+TestCeasarCipherBuildEncoder_ShiftOfOne	ciphers_test.go	/^func TestCeasarCipherBuildEncoder_ShiftOfOne(t *testing.T) {$/;"	f
+TestCeasarCipherFindShift_SentenceNormalShift	ciphers_test.go	/^func TestCeasarCipherFindShift_SentenceNormalShift(t *testing.T) {$/;"	f
+TestCeasarCipherFindShift_SmallWordLargeShift	ciphers_test.go	/^func TestCeasarCipherFindShift_SmallWordLargeShift(t *testing.T) {$/;"	f
+TestCeasarCipherFindShift_SmallWordNoShift	ciphers_test.go	/^func TestCeasarCipherFindShift_SmallWordNoShift(t *testing.T) {$/;"	f
+TestCeasarCipherFindShift_SmallWordShiftOne	ciphers_test.go	/^func TestCeasarCipherFindShift_SmallWordShiftOne(t *testing.T) {$/;"	f
+TestNewWordList_WhenPassedStrings	words_test.go	/^func TestNewWordList_WhenPassedStrings(t *testing.T) {$/;"	f
+TestWordListIsWord_WithEmptyString	words_test.go	/^func TestWordListIsWord_WithEmptyString(t *testing.T) {$/;"	f
+TestWordListIsWord_WithNonWord	words_test.go	/^func TestWordListIsWord_WithNonWord(t *testing.T) {$/;"	f
+TestWordListIsWord_WithWord	words_test.go	/^func TestWordListIsWord_WithWord(t *testing.T) {$/;"	f
+TestcheckShift_NegativeShift	ciphers_test.go	/^func TestcheckShift_NegativeShift(t *testing.T) {$/;"	f
+TestcheckShift_TooLargeShift	ciphers_test.go	/^func TestcheckShift_TooLargeShift(t *testing.T) {$/;"	f
+WordList	words.go	/^type WordList struct {$/;"	t
+buildCoder	ciphers.go	/^func buildCoder(shift int) map[string]string {$/;"	f
+checkShift	ciphers.go	/^func checkShift(shift int) error {$/;"	f
+comparsion	sort.go	/^type comparsion func(a, b float64) bool$/;"	t
+findShiftsR	ciphers.go	/^func findShiftsR(text string, wordList IWords, start int) [][]int {$/;"	f
+merge	sort.go	/^func merge(lA, lB []ComparatorFloat64) []ComparatorFloat64 {$/;"	f
+newWordListFactory	words_test.go	/^func newWordListFactory() *WordList {$/;"	f
+testWords	words_test.go	/^var testWords = []string{"leagues", "under", "the", "sea"}$/;"	v
+words	ciphers_test.go	/^var words []string = []string{"word", "words", "a", "tree", "submarine",$/;"	v
+work	ciphers.go	/^package work$/;"	p
+work	ciphers_test.go	/^package work$/;"	p
+work	search.go	/^package work$/;"	p
+work	sort.go	/^package work$/;"	p
+work	words.go	/^package work$/;"	p
+work	words_test.go	/^package work$/;"	p
